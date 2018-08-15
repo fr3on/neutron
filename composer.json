@@ -1,7 +1,7 @@
 {
     "name": "fr3on/neutron",
     "description": "Neutron package for Laravel.",
-    "keywords": ["laravel", "neutron", "fr3on"],
+    "keywords": ["laravel", "neutron", "fr3on", "boot"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,16 +19,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Fro3n\\Neutron\\": "./src"
-        }
+            "Fr3on\\Neutron\\": "./src"
+        }   
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fro3n\\Neutron\\Provider"
+                "Fr3on\\Neutron\\Provider"
             ],
             "aliases": {
-                "Neutron": "Fro3n\\Neutron\\Facade"
+                "Neutron": "Fr3on\\Neutron\\Facade"
             }
         }
     }
