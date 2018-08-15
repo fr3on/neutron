@@ -1,7 +1,6 @@
 # Neutron package for Laravel.
 
 [![Version](https://poser.pugx.org/fr3on/neutron/v/stable.svg)](https://github.com/fr3on/neutron/releases)
-[![Quality](https://scrutinizer-ci.com/g/fr3on/neutron/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fr3on/neutron)
 [![StyleCI](https://styleci.io/repos/102290249/shield?style=flat&branch=master)](https://styleci.io/repos/102290249)
 [![Downloads](https://poser.pugx.org/fr3on/neutron/d/total.svg)](https://github.com/fr3on/neutron)
 [![License](https://poser.pugx.org/fr3on/neutron/license.svg)](LICENSE.md)
