@@ -55,4 +55,3 @@ If you discover any security related issues, please email hello@asanai.com inste
 
 ## License
 
-The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
