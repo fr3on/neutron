@@ -33,5 +33,7 @@
                 "Neutron": "Fro3n\\Neutron\\Facade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
