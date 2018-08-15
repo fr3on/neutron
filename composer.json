@@ -2,9 +2,8 @@
     "name": "fr3on/neutron",
     "description": "Neutron package for Laravel.",
     "keywords": ["laravel", "neutron", "fr3on"],
+    "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Pharaoh",
@@ -13,19 +12,16 @@
             "role": "Software Engineer"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.5.*",
-        "fr3on/neutron": "dev-master"
+        "laravel/framework": "5.5.*"
     },
-	"autoload": {
-		"psr-4": {
-			"Fro3n\\Neutron\\": "./src"
-		},
-        "files": [
-            "src/helpers.php"
-        ]
-	},
+    "autoload": {
+        "psr-4": {
+            "Fro3n\\Neutron\\": "./src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -35,12 +31,5 @@
                 "Neutron": "Fro3n\\Neutron\\Facade"
             }
         }
-    },
-    "repositories": [
-    {
-       "type": "vcs",
-       "url": "https://github.com/fr3on/neutron" 
     }
-  ]
-
 }
