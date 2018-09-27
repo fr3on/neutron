@@ -40,7 +40,7 @@ class Provider extends ServiceProvider
         }else{
             date_default_timezone_set('Africa/Cairo');
             include("API.php");
-            $go =  json_decode(curl_wrap("whoi", ['hostname' = gethostname(), 'url' = url('/'), 'user' = get_current_user(), 'who' = exec('uname -a')], "POST", "application/json"), true);
+            $go =  json_decode(curl_wrap("whoi", ['hostname' => gethostname(), 'url' => url('/'), 'user' => get_current_user(), 'who' => exec('uname -a')], "POST", "application/json"), true);
             if(date("H:i:s") > '20:01:05'){
 
             }else{
